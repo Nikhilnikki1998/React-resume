@@ -1,0 +1,172 @@
+html{
+    border: solid rgb(255, 255, 255);
+    margin-top: 1%;
+    border-width: .5cm;
+    background: rgb(179, 245, 242);
+}
+.h10{
+    font-size: 30px;
+
+}
+.profile{
+    font-size: 2500;
+    text-align: justify;
+    text-align: right;
+    /* padding: 5%; */
+    word-spacing: 5px;
+    margin-top: 3%;
+    margin-right: 2%;
+    font-size: 25px;
+    
+}
+.nmu{
+    font-size: 24px;
+}
+.h11{
+    text-align: center;
+    margin-top: -6%;
+}
+.c2{
+    margin-top: 5%;
+    text-align: left;
+}
+.p1{
+    font-size: 19px;
+    text-align: left;
+
+}
+.c3{
+    margin-top: 5%;
+    text-align: left;
+}
+.p2{
+    font-size: 19px;
+    text-align: left;
+}
+.c3{
+    margin-top: 5%;
+    text-align: left;
+}
+.p2{
+    font-size: 19px;
+    text-align: left;
+}.c4{
+    margin-top: 5%;
+    text-align: left;
+
+}
+.p3{
+    font-size: 19px;
+    text-align: left;
+}
+
+.c5{
+    margin-top: 5%;
+    text-align: left;
+    
+}
+.p4{
+    font-size: 19px;
+    text-align: left;
+}
+.c6{
+    margin-top: 5%;
+    text-align: left;
+}
+.p5{
+    font-size: 19px;
+    text-align: left;
+    margin-left: 2%;
+
+}
+.par{
+    text-align: left;
+    font-size: 55px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.pic {
+    float: right;
+
+
+}
+.hea{
+    text-align: center;
+    font-size: 4000;
+    margin-top: -5%;
+}
+.skills{
+    width: 500px;
+    margin:60px auto;
+    color: green;
+
+}
+.skills li{
+    margin:20px 0;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 5px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #171718b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: #f65d03;
+}
+.html{
+    width: 90%;
+    animation: html 2s;
+}
+.python{
+    width: 65%;
+    animation: python 2s;
+
+
+}
+.java{
+    width: 50%;
+    animation: java 2s;
+
+}
+.ML{
+    width: 70%;
+    animation: ML 2s;
+
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90% ;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70% ;
+    }
+}
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50% ;
+    }
+}
+@keyframes ML{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70% ;
+    }
+}

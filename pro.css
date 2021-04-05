@@ -1,0 +1,20 @@
+html{
+    border: solid rgb(255, 255, 255);
+    margin-top: 1%;
+    border-width: .5cm;
+    background: rgb(179, 245, 242);
+}
+.h1{
+    text-align: center;
+}
+.profile{
+    font-size: 2500;
+    text-align: justify;
+    text-align: right;
+    /* padding: 5%; */
+    word-spacing: 5px;
+    margin-top: 3%;
+    margin-right: 2%;
+    font-size: 25px;
+    
+}
