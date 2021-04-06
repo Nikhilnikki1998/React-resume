@@ -7,6 +7,46 @@ html{
 .h1{
     text-align: center;
 }
+nav{
+    height: 80px;
+    width: 100%;
+    background: #34495e;
+}
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 0 100px;
+    line-height: 80px;
+}
+nav ul{
+    float: right ;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 80px;
+    line-height: 80px;
+}
+html{
+    background: rgb(179, 245, 242);
+
+    border: solid white;
+    margin-top: 1%;
+    border-width: .5cm;
+}
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding:7px 10px;
+    border-radius: 3px;
+}
+a.active ,a.hover{
+    border: 1px solid white;
+    transition: .5s;
+}
 .profile{
     font-size: 2500;
     text-align: justify;

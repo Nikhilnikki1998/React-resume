@@ -1,24 +1,64 @@
 html{
-    border: solid rgb(255, 255, 255);
+    border: solid rgb(255, 252, 252);
     margin-top: 1%;
-    border-width: .5cm;
-    background: rgb(179, 245, 242);
+    border-width: 1.5cm;
+    background: rgb(3, 3, 0);
 }
 .h10{
     font-size: 30px;
 
 }
-.profile{
-    font-size: 2500;
-    text-align: justify;
-    text-align: right;
-    /* padding: 5%; */
-    word-spacing: 5px;
-    margin-top: 3%;
-    margin-right: 2%;
-    font-size: 25px;
-    
+nav{
+    height: 80px;
+    width: 100%;
+    background: #e1ee69;
 }
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(109, 228, 29);
+    padding: 0 100px;
+    line-height: 80px;
+}
+nav ul{
+    float: right ;
+    margin-right: 20px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 80px;
+    line-height: 80px;
+}
+html{
+    background: rgb(245, 241, 179);
+
+    border: solid rgb(250, 250, 250);
+    margin-top: 1%;
+    border-width: 3.5cm;
+}   
+nav a{
+    color: rgb(69, 172, 51);
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding:7px 10px;
+    border-radius: 3px;
+}
+a.active ,a.hover{
+    border: 1px solid rgb(140, 235, 131);
+    transition: .5s;
+}
+nav #icon{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+
+
 .nmu{
     font-size: 24px;
 }
@@ -27,7 +67,7 @@ html{
     margin-top: -6%;
 }
 .c2{
-    margin-top: 5%;
+    margin-top: 3%;
     text-align: left;
 }
 .p1{
@@ -82,11 +122,12 @@ html{
 .par{
     text-align: left;
     font-size: 55px;
-    margin-top: 5%;
-    margin-left: 10%;
+    margin-top: -5%;
+    margin-left: 1%;
 }
 .pic {
     float: right;
+    margin-left: 50%;
 
 
 }

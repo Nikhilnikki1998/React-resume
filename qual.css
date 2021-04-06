@@ -3,12 +3,53 @@
     list-style: none;
     padding: 0;
 }
+nav{
+    height: 80px;
+    width: 100%;
+    background: #e1ee69;
+}
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(109, 228, 29);
+    padding: 0 100px;
+    line-height: 80px;
+}
+nav ul{
+    float: right ;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 80px;
+    line-height: 80px;
+}
 html{
-    background: rgb(179, 245, 242);
+    background: rgb(245, 241, 179);
 
-    border: solid white;
+    border: solid rgb(0, 0, 0);
     margin-top: 1%;
     border-width: .5cm;
+}
+nav a{
+    color: rgb(69, 172, 51);
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding:7px 10px;
+    border-radius: 3px;
+}
+a.active ,a.hover{
+    border: 1px solid rgb(140, 235, 131);
+    transition: .5s;
+}
+nav #icon{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
 }
 .profile{
     font-size: 2500;
@@ -22,8 +63,8 @@ html{
     
 }
 .h11{
-    text-align: center;
-    margin-top: -6%;
+    text-align: left;
+    margin-top: -2.5%;
 }
 .nmu{
     font-size: 24px;
@@ -41,14 +82,14 @@ html{
 .bar{
     background: #353b48;
     display: block;
-    height: 5px;
+    height: 10px;
     border: 1px solid rgba(0,0,0,0.3);
     border-radius: 3px;
     overflow: hidden;
     box-shadow: 0 0 10px #171718b3;
 }
 .bar span{
-    height: 2px;
+    height: 10px;
     float: left;
     background: #f65d03;
 }
