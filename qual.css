@@ -6,12 +6,12 @@
 nav{
     height: 80px;
     width: 100%;
-    background: #e1ee69;
+    background: #f1ec9d;
 }
 label.logo{
     font-size: 35px;
     font-weight: bold;
-    color: rgb(109, 228, 29);
+    color: rgb(35, 47, 27);
     padding: 0 100px;
     line-height: 80px;
 }
@@ -24,15 +24,18 @@ nav li{
     margin: 0 80px;
     line-height: 80px;
 }
-html{
-    background: rgb(245, 241, 179);
-
-    border: solid rgb(0, 0, 0);
-    margin-top: 1%;
-    border-width: .5cm;
+.tabble{
+    margin-left: 10%;
 }
+html{
+    background: rgb(221, 220, 193);
+
+    border: solid rgb(21, 41, 42);
+    margin-top: 1%;
+    border-width: 3.5cm;
+}   
 nav a{
-    color: rgb(69, 172, 51);
+    color: rgb(85, 172, 51);
     font-size: 18px;
     text-transform: uppercase;
     border: 1px solid transparent;
@@ -73,7 +76,7 @@ nav #icon{
     margin-top: 50%;
     width: 500px;
     margin:60px auto;
-    color: green;
+    color: rgb(58, 0, 128);
 
 }
 .skills li{
@@ -145,3 +148,69 @@ nav #icon{
         width: 70% ;
     }
 }
+
+.blog-posts{
+    width: min(1200px, 100%);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    cursor: pointer;
+    margin-left: 13%;
+  }
+  
+  .post{
+    width: calc(33% - 10px);
+    overflow: hidden;
+  }
+  
+  .post-img{
+    width: 100%;
+    border-radius: 6px;
+    transition: .3s linear;
+  }
+  
+  .post-content{
+    background-color: #79e76fdd;
+    margin: 0 20px;
+    padding: 30px;
+    border-radius: 6px;
+    transform: translateY(-60px);
+    transition: .3s linear;
+  }
+  
+  .post-content h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .date{
+    font-size: 15px;
+    font-style: italic;
+    color: #e77f67;
+  }
+  
+  .post:hover .post-img{
+    transform: translateY(20px);
+  }
+  
+  .post:hover .post-content{
+    transform: translateY(-80px);
+  }
+  
+  @media screen and (max-width: 1200px){
+    .blog-posts{
+      justify-content: center;
+    }
+    .post{
+      width: min(600px, 100%);
+    }
+  }
+.logo{
+    margin-left: -6.2%;
+
+  }
+  .cen{
+      text-align: left;
+      margin-left: -112%;
+  }

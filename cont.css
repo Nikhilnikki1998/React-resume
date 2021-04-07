@@ -71,19 +71,22 @@ nav li{
     line-height: 80px;
 }
 .sm{
-    margin-left: 29%;
-    margin-top: 20%;
+    margin-left: 30%;
+    margin-top: 6%;
 
+}
+.pic{
+    margin-left: 44%;
 }
 html{
-    background: rgb(245, 241, 179);
+    background: rgb(221, 220, 193);
 
-    border: solid rgb(0, 0, 0);
+    border: solid rgb(21, 41, 42);
     margin-top: 1%;
-    border-width: .5cm;
-}
+    border-width: 3.5cm;
+}    
 .h12{
-    margin-left: 45%;
+    margin-left: 40%;
     margin-top:5%;
 }
 *{
@@ -94,7 +97,7 @@ html{
 nav{
     height: 80px;
     width: 100%;
-    background: #e1ee69;
+    background: #f1ec9d;
 }
 label.logo{
     font-size: 35px;
@@ -113,12 +116,12 @@ nav li{
     line-height: 80px;
 }
 html{
-    background: rgb(245, 241, 179);
+    background: rgb(139, 98, 98);
 
-    border: solid rgb(0, 0, 0);
+    border: solid rgb(21, 41, 42);
     margin-top: 1%;
-    border-width: .5cm;
-}
+    border-width: 3.5cm;
+} 
 nav a{
     color: rgb(69, 172, 51);
     font-size: 18px;
@@ -138,4 +141,7 @@ nav #icon{
     float: right;
     margin-right: 40px;
     cursor: pointer;
+}
+.logo{
+    margin-left: -10%;
 }
