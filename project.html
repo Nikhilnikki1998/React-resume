@@ -1,66 +1,127 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title class=> Resume </title>
-        <link rel="stylesheet" href="qual.css">
-        <meta charset="UTF-8">
+
+<head>
+  <title class=> Resume </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      border: solid rgb(10, 9, 9) 2px;
+      border-width: 1.5cm;
+      /* background-color: rgb(231, 229, 125); */
+    }
+  </style>
 
+
+</head>
+
+<body>
+  <div style="background-color:burlywood;" class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-transparent">
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse fs-1" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ht.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quality.html">Qualifications</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="project.html">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Me</a>
+              </li>
+
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div><br><br><br><br><br>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-2">
+          <div class="card" style="width: 18rem;">
+        <img src="ant.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Micro Strip Patch antenna<br>
+              </h5>
+              <p class="card-text">Duration 3months <br><br>
+                Description- To design a micro strip patch antenna<br><br>
+                Technology used- CST Studio.</p>
+              <a href="https://www.antenna-theory.com/antennas/patches/antenna.php" target="_blank"
+                ><button type="button" class="btn btn-secondary">To know more</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-2">
         
-    </head>
-    <body>
-        <header>
-            <nav>
-                <label class="logo">Project</label>
-                <ul>
-                    <li><a class="active" href="ht.html">ABOUT</a></li>
-                    <li> <a class="active" href="quality.html">QUALIFICATIONS</a></li>
-                    <li><a class="active" href=project.html>PROJECT</a></li>
-                    <li> <a class="active" href=contact.html>CONTACT</a> </li>
-                    <li> <a class="active" href="about.html">Home</a> </li> 
-                </ul> 
-                <label id="icon"></label>
-                <i class="fas fa-bars"></i>
-            </nav>
-            <div class="blog-posts">
-                <div class="post">
-                  <img src="ant.jpg" alt="pic" class="post-img">
-                  <div class="post-content">
-                    <h3>Micro Strip Patch antenna<br>
-                        Duration 3months <br>
-                        Description- To design a micro strip patch antenna<br>
-                        Technology used- CST Studio
-                    </h3>
-                    <span class="date">July, 2019</span>
-                  </div>
-                </div>
-
-                  <div class="post">
-                    <img src="drone.jpg" alt="pic" class="post-img">
-                    <div class="post-content">
-                      <h3>Pentagonal Drone<br>
-                          Duration- 1month<br>
-                          Description- TO design a 5 wing drone to support medical requirements<br>
-                          Technology used- Aurdino
-
-                      </h3>
-                      <span class="date">October , 2019</span>
-                    </div>
-                </div>
-                <div class="post">
-                    <img src="car.jpg" alt="pic" class="post-img" width="200">
-                    <div class="post-content">
-                      <h3>Robot Car<br>
-                          Duration-2months<br>
-                          Description- To design a robo car which can move in a direction where there are n o obstecles<br>
-                          Technology used- Aurdino<br>
-                      </h3>
-                      <span class="date">Febraury , 2020</span>
-                    </div>
-                  </div>
-                </div>
+          <div class="card" style="width: 18rem;">
+            <img src="drone.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pentagonal Drone<br>
+              </h5>
+              <p class="card-text">Duration 1month <br><br>
+                Description- To design a robo car which can move in a direction where there are n o obstecles<br><br>
+            Technology used- Aurdino</p>
+              <a href="https://en.wikipedia.org/wiki/Robocar_Poli" target="_blank"
+                ><button type="button" class="btn btn-success">To know more</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          </div>
+          <div class="col-sm-2">
+          <div class="card" style="width: 18rem;">
+            <img src="car.jpg" class="card-img-top" style="height: 155px;" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Robot Car<br>
+              </h5>
+              <p class="card-text">Duration 2months <br><br>
+                Description- To design a robo car which can move in a direction where there are n o obstecles<br><br>
+            Technology used- Aurdino.</p>
+              <a href="https://www.zdnet.com/article/pentagon-documents-the-militarys-growing-domestic-drone-use/" target="_blank"
+                ><button type="button" class="btn btn-dark">To know more</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-1">
+        </div>
+      </div>
+    </div>
 
 
-        </header>
-    </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
